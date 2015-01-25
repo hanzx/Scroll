@@ -1,0 +1,6 @@
+name: scroll
+version: 0.0.1
+description: A library useful for applications or for sharing on pub.dartlang.org.
+homepage: 
+environment:
+  sdk: '>=0.8.10+6 <2.0.0'
