@@ -27,25 +27,16 @@ A simple usage example:
 ```dart
   import 'package:scroll/scroll.dart';
 
-<<<<<<< HEAD
   main(){
     new Scroll('ul.nav li a');
   }
 ```
-=======
-    main() {
-       new Scroll('nav.navbar ul.nav li a', duration:1000, easing: Easing.EaseInOutElastic, offsetOptions: {
-       'top': -103.8
-       });
-    }
->>>>>>> branch 'master' of ssh://git@github.com/hanzx/Scroll.git
 
 More advanced solution:
 
 ```dart
   import 'package:scroll/scroll.dart';
 
-<<<<<<< HEAD
   main(){
     new Scroll('ul.nav li a', duration:1000, easing: Easing.EaseInOutElastic, offsetOptions: {
     'top': -103.8
@@ -55,7 +46,4 @@ More advanced solution:
 
 ## License
 This library is licensed under MIT.
-=======
-[tracker]: http://example.com/issues/replaceme
 
->>>>>>> branch 'master' of ssh://git@github.com/hanzx/Scroll.git
