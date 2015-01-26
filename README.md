@@ -39,7 +39,7 @@ More advanced solution:
 
   main(){
     new Scroll('ul.nav li a', duration:1000, easing: Easing.EaseInOutElastic, offsetOptions: {
-    'top': -103.8
+    'top': -103
   });
 }
 ```
