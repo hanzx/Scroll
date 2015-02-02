@@ -32,7 +32,7 @@ class Scroll {
   Scroll(this.selector, {this.duration: 500, this.easing: Easing.Linear, this.offsetOptions: OffsetDefaultOptions}) {
     querySelectorAll(this.selector)..onClick.listen(_scrollTo);
     easingFunction = Easing.getEasingFunction(easing);
-    offsetTop = (offsetOptions['top'] != null && offsetOptions['top'] == int) ? offsetOptions['top'] : 0;
+    offsetTop = (offsetOptions['top'] != null && offsetOptions['top'] is int) ? offsetOptions['top'] : 0;
   }
 
   void _scrollTo(MouseEvent event) {
